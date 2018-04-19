@@ -1,5 +1,55 @@
+body {
+  margin: 0;
+  background: #fff;
+  font-family: Ariel, Helvetica;
+  color: #333;
+  font-size: 13px;
+}
+
 div#content {
     height: 100%;
+}
+
+div#navbar {
+    height: 40px;
+    line-height: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 15px;
+    justify-content: space-between;
+    text-align: right;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+div#navbar a {
+    padding: 10px;
+    color: #222;
+}
+
+div#navbar button{
+    vertical-align: middle;
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    background: #4285f4;
+    line-height: 28px;
+    padding: 0 12px;
+    border-radius: 2px;
+    color: #fff;
+}
+
+div#navbar button:hover {
+    box-shadow: 0px 1px 1px #e3e3e3;
+}
+
+div#main {
+    text-align: center;
 }
 
 div#logo {
@@ -8,26 +58,28 @@ div#logo {
     height: 120px;
 }
 
-.center {
-    text-align: center;
-}
-
 input {
-    height: 40px;
-    box-shadow: 0px 1px 4px 2px #e3e3e3;
-    border: 0.5px solid #d6d6d6;
     border-radius: 3px;
 }
 
 div#buttons {
+    height: 35px;
     width: 280px;
-    margin: 0 auto;
+    margin: 25px auto;
     display: flex;
 }
 
 input#searchinput {
-    width: 480px;
+    width: 550px;
+    height: 45px;
     margin-bottom: 10px;
+    padding: 0 15px;
+    box-shadow: 1px 2px 5px #e3e3e3;
+    border: 0.5px solid #d6d6d6;
+}
+
+input#searchinput:hover {
+    box-shadow: 2px 3px 5px #e3e3e3;
 }
 
 .flatbutton {
@@ -40,8 +92,6 @@ input#searchinput {
     font-weight: bold;
     width: 200px;
     border: 0.5px solid #f4f4f4;
-    border-radius: 3px;
-    box-shadow: 0px 0px 0px 0px #fff;
 }
 
 .flatbutton:hover {
