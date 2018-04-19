@@ -82,6 +82,10 @@ input#searchinput:hover {
     box-shadow: 2px 3px 5px #e3e3e3;
 }
 
+input#searchinput:focus {
+    outline: none;
+}
+
 .flatbutton {
     color: #757575;
     background-color: #f4f4f4;
@@ -97,4 +101,33 @@ input#searchinput:hover {
 .flatbutton:hover {
     border: 0.5px solid #aaa;
     color: #222;
+}
+
+
+div#prefooterbar {
+    height: 80px;
+    padding-left: 30px; 
+}
+
+div#footerbar {
+    height: 40px;
+    border-top: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer {
+    line-height: 40px;
+    background-color: #eee;
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+    border-top: 1px solid #ddd;
+    color: #555;
+}
+
+div#footerbar a {
+    color: #555;
+    padding-left: 10px;
+    padding-right: 10px;
 }
